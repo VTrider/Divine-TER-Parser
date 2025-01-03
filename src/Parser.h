@@ -7,10 +7,11 @@
 struct MapInfo
 {
     std::string name;
+    std::string file;
     std::uint32_t size;
     std::string formattedSize;
     std::uint32_t baseToBaseDistance;
-    std::string binarySave;
+    bool binarySave;
 };
 
 struct Vec3

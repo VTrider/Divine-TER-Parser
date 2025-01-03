@@ -19,6 +19,7 @@ void Parser::MakeJSON(const std::vector<MapInfo>& maps, const std::string& outFi
     for (const auto& map : maps)
     {
         jsonData.push_back({ { "name", map.name },
+                             { "file", map.file },
                              { "formattedSize", map.formattedSize },
                              { "size", map.size },
                              { "baseToBase", map.baseToBaseDistance },
@@ -37,6 +38,7 @@ void Parser::OutputText(const std::vector<MapInfo>& maps)
     for (const auto& info : maps)
     {
         std::cout << "Map: " << info.name << '\n';
+        std::cout << "File: " << info.file << '\n';
         std::cout << "Formatted Size (m): " << info.formattedSize << '\n';
         std::cout << "Size (m): " << info.size << '\n';
         std::cout << "Base to Base Distance (m): " << info.baseToBaseDistance << '\n';
@@ -57,7 +59,7 @@ void Parser::DoTER(const std::filesystem::path& path, MapInfo& info)
 
     std::int16_t size{};
     ter.read(reinterpret_cast<char*>(&size), sizeof(std::int16_t));
-
+    
     size *= 2; // herppapotamus said this is right
     info.size = size;
     info.formattedSize = std::format("{}x{}", size, size);
@@ -97,7 +99,7 @@ void Parser::DoBZN(const std::filesystem::path& path, MapInfo& info)
         return;
     }
 
-    std::ifstream inf(path);
+    std::ifstream bzn(path);
 
     std::string line;
 
@@ -107,13 +109,41 @@ void Parser::DoBZN(const std::filesystem::path& path, MapInfo& info)
 
     for (int i = 0; i < 6; i++)
     {
-        std::getline(inf, line);
+        std::getline(bzn, line);
     }
 
-    info.binarySave = line;
+    info.binarySave = (line == "true") ? true : false;
+
+    if (info.binarySave == true)
+    {
+        bzn.close();
+        std::ifstream bzn(path, std::ios::binary);
+        if (!bzn)
+        {
+            std::cerr << "Failed to open file: " << path << '\n';
+            return;
+        }
+
+        bzn.seekg(72); // Offset to file name is consistent in binary BZNs
+
+        char c;
+        std::string fileName;
+
+        const char eot = '\x04';
+        while (bzn.get(c) && c != eot)
+        {
+            fileName += c;
+        }
+        info.file = fileName;
+    }
+    else
+    {
+        std::getline(bzn, line);
+        info.file = line.substr(line.find('=') + 2);
+    }
 
     // If you got more than two spawns ur out of luck!
-    while (std::getline(inf, line) && spawnsFound < 2)
+    while (std::getline(bzn, line) && spawnsFound < 2)
     {
         static const std::string targetPhrase = "OBJCLASS = PSPWN_1";
         if (ToUpper(line).starts_with(targetPhrase))
@@ -125,12 +155,12 @@ void Parser::DoBZN(const std::filesystem::path& path, MapInfo& info)
             }
 
             // Seek to the position of the spawn
-            while (std::getline(inf, line))
+            while (std::getline(bzn, line))
             {
                 static const std::string positionPhrase = "  POSIT.X [1] =";
                 if (ToUpper(line).starts_with(positionPhrase))
                 {
-                    std::getline(inf, line);
+                    std::getline(bzn, line);
                     break;
                 }
             }
@@ -155,7 +185,7 @@ void Parser::DoBZN(const std::filesystem::path& path, MapInfo& info)
                 // The data is every other line
                 for (int i = 0; i < 2; i++)
                 {
-                    std::getline(inf, line);
+                    std::getline(bzn, line);
                 }
             }
             spawnsFound++;

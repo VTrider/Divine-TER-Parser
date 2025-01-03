@@ -5,7 +5,7 @@
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 2181,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "FFA: River4",
@@ -13,7 +13,7 @@
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 1231,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "ST: A Bridge Too Far",
@@ -21,7 +21,7 @@
         "formattedSize": "640x640",
         "size": 640,
         "baseToBase": 988,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "ST: Big Chill",
@@ -29,7 +29,7 @@
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 1014,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "ST: Deep Blue Sea",
@@ -37,7 +37,7 @@
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 1247,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "ST: Desert Quarry",
@@ -45,7 +45,7 @@
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 978,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "ST: Ground Zero",
@@ -53,7 +53,7 @@
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 2181,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "ST: High & Low",
@@ -61,7 +61,7 @@
         "formattedSize": "512x512",
         "size": 512,
         "baseToBase": 1109,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "ST: High Heat",
@@ -69,7 +69,7 @@
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 1090,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "ST: Island Warfare",
@@ -77,7 +77,7 @@
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 1215,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "ST: Mars",
@@ -85,7 +85,7 @@
         "formattedSize": "1280x1280",
         "size": 1280,
         "baseToBase": 951,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "ST: Patton's Proving Ground",
@@ -93,7 +93,7 @@
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 1294,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "ST: RiverWars",
@@ -101,7 +101,7 @@
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 1231,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "ST: The Rocks",
@@ -109,7 +109,7 @@
         "formattedSize": "512x512",
         "size": 512,
         "baseToBase": 288,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR DM: Rocky Canyon",
@@ -117,7 +117,7 @@
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 852,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR DM: Sly's Obstacle Course",
@@ -125,7 +125,7 @@
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 32,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR DM: Vet Training Grounds",
@@ -133,7 +133,7 @@
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 32,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR DM: Volcanoes",
@@ -141,7 +141,7 @@
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 656,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR FFA: 4 Play",
@@ -149,7 +149,7 @@
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 1514,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR FFA: 9 Cells",
@@ -157,7 +157,7 @@
         "formattedSize": "1280x1280",
         "size": 1280,
         "baseToBase": 1526,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR FFA: Base Pits",
@@ -165,7 +165,7 @@
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 768,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR FFA: Crystal Castles",
@@ -173,7 +173,7 @@
         "formattedSize": "1280x1280",
         "size": 1280,
         "baseToBase": 1856,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR FFA: Dark Planet",
@@ -181,7 +181,7 @@
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 1050,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR FFA: Face Off",
@@ -189,7 +189,7 @@
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 225,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR FFA: Ice Path",
@@ -197,7 +197,7 @@
         "formattedSize": "2560x2560",
         "size": 2560,
         "baseToBase": 1962,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR FFA: Middle-Low",
@@ -205,7 +205,7 @@
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 707,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR FFA: Ring 8",
@@ -213,7 +213,7 @@
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 3179,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR FFA: Scrap Pit Extreme",
@@ -221,7 +221,7 @@
         "formattedSize": "1280x1280",
         "size": 1280,
         "baseToBase": 1779,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR MPI: Ascent",
@@ -229,7 +229,7 @@
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 0,
-        "binarySave": "true"
+        "binarySave": true
     },
     {
         "name": "VSR MPI: BottleNeck",
@@ -237,7 +237,7 @@
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 2041,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR MPI: Meltdown",
@@ -245,7 +245,7 @@
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 807,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR MPI: Stranded",
@@ -253,7 +253,7 @@
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 1083,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: 310",
@@ -261,7 +261,7 @@
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 1024,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Abundance",
@@ -269,7 +269,7 @@
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 0,
-        "binarySave": "true"
+        "binarySave": true
     },
     {
         "name": "VSR: Abuse",
@@ -277,7 +277,7 @@
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 1032,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Amino",
@@ -285,7 +285,7 @@
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 843,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Ammo2Go",
@@ -293,7 +293,7 @@
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 0,
-        "binarySave": "true"
+        "binarySave": true
     },
     {
         "name": "VSR: Ancient Hills",
@@ -301,7 +301,7 @@
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 1153,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Ancient Outposts",
@@ -309,7 +309,7 @@
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 1236,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Aussault",
@@ -317,7 +317,7 @@
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 1024,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Aztec",
@@ -325,7 +325,7 @@
         "formattedSize": "640x640",
         "size": 640,
         "baseToBase": 1172,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Badlands",
@@ -333,7 +333,7 @@
         "formattedSize": "512x512",
         "size": 512,
         "baseToBase": 826,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Barren",
@@ -341,7 +341,7 @@
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 953,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Beyond",
@@ -349,7 +349,7 @@
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 803,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Bolt",
@@ -357,7 +357,7 @@
         "formattedSize": "512x512",
         "size": 512,
         "baseToBase": 724,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Bowl",
@@ -365,7 +365,7 @@
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 1121,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: CP Devils Cauldron",
@@ -373,7 +373,7 @@
         "formattedSize": "1280x1280",
         "size": 1280,
         "baseToBase": 1152,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: CP Outposts",
@@ -381,7 +381,7 @@
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 836,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Canyons",
@@ -389,7 +389,7 @@
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 1876,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Casius",
@@ -397,7 +397,7 @@
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 1261,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Cliff",
@@ -405,7 +405,7 @@
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 1225,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Concrete Jungle",
@@ -413,7 +413,7 @@
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 785,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Consciousness",
@@ -421,7 +421,7 @@
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 862,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Cracked",
@@ -429,7 +429,7 @@
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 1274,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Crater",
@@ -437,7 +437,7 @@
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 895,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Curiosity",
@@ -445,7 +445,7 @@
         "formattedSize": "512x512",
         "size": 512,
         "baseToBase": 749,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: DC",
@@ -453,7 +453,7 @@
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 1069,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Death Island",
@@ -461,7 +461,7 @@
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 1185,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Dedux",
@@ -469,7 +469,7 @@
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 896,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Domain",
@@ -477,7 +477,7 @@
         "formattedSize": "1408x1408",
         "size": 1408,
         "baseToBase": 1296,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Dream",
@@ -485,7 +485,7 @@
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 834,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: DuneNight",
@@ -493,7 +493,7 @@
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 736,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Dusk",
@@ -501,7 +501,7 @@
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 0,
-        "binarySave": "true"
+        "binarySave": true
     },
     {
         "name": "VSR: Ebola",
@@ -509,7 +509,7 @@
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 996,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Echelon",
@@ -517,7 +517,7 @@
         "formattedSize": "512x512",
         "size": 512,
         "baseToBase": 890,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Egypt",
@@ -525,7 +525,7 @@
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 931,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Equinox",
@@ -533,7 +533,7 @@
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 933,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Europa",
@@ -541,7 +541,7 @@
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 975,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Europa Night",
@@ -549,7 +549,7 @@
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 975,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Excavation",
@@ -557,7 +557,7 @@
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 1136,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Fever Valley",
@@ -565,7 +565,7 @@
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 1414,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Finland Daylight",
@@ -573,7 +573,7 @@
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 1055,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Fire Island",
@@ -581,7 +581,7 @@
         "formattedSize": "896x896",
         "size": 896,
         "baseToBase": 1042,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Flooded",
@@ -589,7 +589,7 @@
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 1409,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Forgotten",
@@ -597,7 +597,7 @@
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 1208,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Fort 12C",
@@ -605,7 +605,7 @@
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 1024,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Garden",
@@ -613,7 +613,7 @@
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 1067,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Giza",
@@ -621,7 +621,7 @@
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 928,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Golden Sun",
@@ -629,7 +629,7 @@
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 1184,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Haven",
@@ -637,7 +637,7 @@
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 841,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Heated Strat",
@@ -645,7 +645,7 @@
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 0,
-        "binarySave": "true"
+        "binarySave": true
     },
     {
         "name": "VSR: Hi-Mid-Lo",
@@ -653,7 +653,7 @@
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 1267,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Hilo Blues",
@@ -661,7 +661,7 @@
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 1179,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Hound",
@@ -669,7 +669,7 @@
         "formattedSize": "256x256",
         "size": 256,
         "baseToBase": 780,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Hubris",
@@ -677,7 +677,7 @@
         "formattedSize": "720x720",
         "size": 720,
         "baseToBase": 897,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: IX: 7 Forts",
@@ -685,7 +685,7 @@
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 0,
-        "binarySave": "true"
+        "binarySave": true
     },
     {
         "name": "VSR: Ice Age",
@@ -693,7 +693,7 @@
         "formattedSize": "1280x1280",
         "size": 1280,
         "baseToBase": 1229,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Ice Cold Strat",
@@ -701,7 +701,7 @@
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 0,
-        "binarySave": "true"
+        "binarySave": true
     },
     {
         "name": "VSR: Iceberg",
@@ -709,7 +709,7 @@
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 1255,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Impact",
@@ -717,7 +717,7 @@
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 1237,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Insula",
@@ -725,7 +725,7 @@
         "formattedSize": "1280x1280",
         "size": 1280,
         "baseToBase": 857,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Iraq",
@@ -733,7 +733,7 @@
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 1160,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Island of *~V8~*+",
@@ -741,7 +741,7 @@
         "formattedSize": "1280x1280",
         "size": 1280,
         "baseToBase": 792,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: JO Crystal",
@@ -749,7 +749,7 @@
         "formattedSize": "1216x1216",
         "size": 1216,
         "baseToBase": 1024,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Jade Green",
@@ -757,7 +757,7 @@
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 1082,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Jurrasic Dog Park",
@@ -765,7 +765,7 @@
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 870,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Know Thyself",
@@ -773,7 +773,7 @@
         "formattedSize": "1280x1280",
         "size": 1280,
         "baseToBase": 707,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Lunar",
@@ -781,7 +781,7 @@
         "formattedSize": "1280x1280",
         "size": 1280,
         "baseToBase": 1188,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Lunix",
@@ -789,7 +789,7 @@
         "formattedSize": "640x640",
         "size": 640,
         "baseToBase": 1050,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: MRT: Wasteland",
@@ -797,7 +797,7 @@
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 996,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Magma",
@@ -805,7 +805,7 @@
         "formattedSize": "512x512",
         "size": 512,
         "baseToBase": 561,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Marden Warfare",
@@ -813,7 +813,7 @@
         "formattedSize": "1152x1152",
         "size": 1152,
         "baseToBase": 0,
-        "binarySave": "true"
+        "binarySave": true
     },
     {
         "name": "VSR: Mayhem",
@@ -821,7 +821,7 @@
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 1192,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Mesa",
@@ -829,7 +829,7 @@
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 1103,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Mexican Mission",
@@ -837,7 +837,7 @@
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 1012,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Middle Wars",
@@ -845,7 +845,7 @@
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 1131,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Mirador",
@@ -853,7 +853,7 @@
         "formattedSize": "512x512",
         "size": 512,
         "baseToBase": 684,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Miredon",
@@ -861,7 +861,7 @@
         "formattedSize": "640x640",
         "size": 640,
         "baseToBase": 838,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Mojave",
@@ -869,7 +869,7 @@
         "formattedSize": "1280x1280",
         "size": 1280,
         "baseToBase": 1088,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Moonshroud",
@@ -877,7 +877,7 @@
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 775,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Mountain Pass",
@@ -885,7 +885,7 @@
         "formattedSize": "1280x1280",
         "size": 1280,
         "baseToBase": 1120,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Mountain Top",
@@ -893,7 +893,7 @@
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 0,
-        "binarySave": "true"
+        "binarySave": true
     },
     {
         "name": "VSR: Murky",
@@ -901,7 +901,7 @@
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 0,
-        "binarySave": "true"
+        "binarySave": true
     },
     {
         "name": "VSR: Natural Landscape",
@@ -909,7 +909,7 @@
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 0,
-        "binarySave": "true"
+        "binarySave": true
     },
     {
         "name": "VSR: Nigeria",
@@ -917,7 +917,7 @@
         "formattedSize": "896x896",
         "size": 896,
         "baseToBase": 771,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: No Mans Land",
@@ -925,7 +925,7 @@
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 723,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Oasis",
@@ -933,7 +933,7 @@
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 1216,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Ogg Vorbis",
@@ -941,7 +941,7 @@
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 1073,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Oldboy",
@@ -949,7 +949,7 @@
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 960,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Overlook",
@@ -957,7 +957,7 @@
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 1280,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Oxide",
@@ -965,7 +965,7 @@
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 1315,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Phazon",
@@ -973,7 +973,7 @@
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 1152,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Phoenix",
@@ -981,7 +981,7 @@
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 1089,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Pit Bull",
@@ -989,7 +989,7 @@
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 768,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Pitfall",
@@ -997,7 +997,7 @@
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 842,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Planetoid",
@@ -1005,7 +1005,7 @@
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 0,
-        "binarySave": "true"
+        "binarySave": true
     },
     {
         "name": "VSR: Plaza",
@@ -1013,7 +1013,7 @@
         "formattedSize": "1280x1280",
         "size": 1280,
         "baseToBase": 896,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Plus",
@@ -1021,7 +1021,7 @@
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 906,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Power Struggle",
@@ -1029,7 +1029,7 @@
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 448,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Prodigy Ver.2",
@@ -1037,7 +1037,7 @@
         "formattedSize": "640x640",
         "size": 640,
         "baseToBase": 1222,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Quagmire",
@@ -1045,7 +1045,7 @@
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 1027,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Quarry 2",
@@ -1053,7 +1053,7 @@
         "formattedSize": "1280x1280",
         "size": 1280,
         "baseToBase": 1042,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Ragnarok",
@@ -1061,7 +1061,7 @@
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 1090,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Rapemas",
@@ -1069,7 +1069,7 @@
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 962,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Ravine",
@@ -1077,7 +1077,7 @@
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 1505,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Rectal",
@@ -1085,7 +1085,7 @@
         "formattedSize": "896x896",
         "size": 896,
         "baseToBase": 730,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Red Bluff",
@@ -1093,7 +1093,7 @@
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 1732,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Red Slope",
@@ -1101,7 +1101,7 @@
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 916,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Reflex",
@@ -1109,7 +1109,7 @@
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 1180,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Remnant",
@@ -1117,7 +1117,7 @@
         "formattedSize": "640x640",
         "size": 640,
         "baseToBase": 1001,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Rendon",
@@ -1125,7 +1125,7 @@
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 992,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Revolution",
@@ -1133,7 +1133,7 @@
         "formattedSize": "512x512",
         "size": 512,
         "baseToBase": 669,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Ridges",
@@ -1141,7 +1141,7 @@
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 1108,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Rift",
@@ -1149,7 +1149,7 @@
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 1875,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Royal Stadium",
@@ -1157,7 +1157,7 @@
         "formattedSize": "512x512",
         "size": 512,
         "baseToBase": 759,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Sahara",
@@ -1165,7 +1165,7 @@
         "formattedSize": "1280x1280",
         "size": 1280,
         "baseToBase": 1242,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Satart",
@@ -1173,7 +1173,7 @@
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 771,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Scammed",
@@ -1181,7 +1181,7 @@
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 1132,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Scion Central",
@@ -1189,7 +1189,7 @@
         "formattedSize": "1280x1280",
         "size": 1280,
         "baseToBase": 1152,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Selena",
@@ -1197,7 +1197,7 @@
         "formattedSize": "1184x1184",
         "size": 1184,
         "baseToBase": 896,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Sinister",
@@ -1205,7 +1205,7 @@
         "formattedSize": "1152x1152",
         "size": 1152,
         "baseToBase": 1016,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Six Way",
@@ -1213,7 +1213,7 @@
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 832,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Snow Central",
@@ -1221,7 +1221,7 @@
         "formattedSize": "1280x1280",
         "size": 1280,
         "baseToBase": 1024,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Stack",
@@ -1229,7 +1229,7 @@
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 896,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Stone Circle",
@@ -1237,7 +1237,7 @@
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 0,
-        "binarySave": "true"
+        "binarySave": true
     },
     {
         "name": "VSR: Strategy Arena",
@@ -1245,7 +1245,7 @@
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 862,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Supply Lanes",
@@ -1253,7 +1253,7 @@
         "formattedSize": "1280x1280",
         "size": 1280,
         "baseToBase": 1222,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Swamp Gas",
@@ -1261,7 +1261,7 @@
         "formattedSize": "896x896",
         "size": 896,
         "baseToBase": 746,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Tempest",
@@ -1269,7 +1269,7 @@
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 1182,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Temple Of Doom",
@@ -1277,7 +1277,7 @@
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 1001,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Terrace",
@@ -1285,7 +1285,7 @@
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 768,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Terron",
@@ -1293,7 +1293,7 @@
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 1088,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: The War",
@@ -1301,7 +1301,7 @@
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 758,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Throbbing Gristle",
@@ -1309,7 +1309,7 @@
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 960,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Titan",
@@ -1317,7 +1317,7 @@
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 973,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Toon Earth, Water and Fire",
@@ -1325,7 +1325,7 @@
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 0,
-        "binarySave": "true"
+        "binarySave": true
     },
     {
         "name": "VSR: Toon World Day",
@@ -1333,7 +1333,7 @@
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 0,
-        "binarySave": "true"
+        "binarySave": true
     },
     {
         "name": "VSR: Toon World Day",
@@ -1341,7 +1341,7 @@
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 0,
-        "binarySave": "true"
+        "binarySave": true
     },
     {
         "name": "VSR: Toxicity",
@@ -1349,7 +1349,7 @@
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 1088,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Trail",
@@ -1357,7 +1357,7 @@
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 1449,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Transfer",
@@ -1365,7 +1365,7 @@
         "formattedSize": "512x512",
         "size": 512,
         "baseToBase": 996,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Trapped",
@@ -1373,7 +1373,7 @@
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 1090,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Trench",
@@ -1381,7 +1381,7 @@
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 1093,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Trinity",
@@ -1389,7 +1389,7 @@
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 1200,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Twin Peaks",
@@ -1397,7 +1397,7 @@
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 1020,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Two Hills",
@@ -1405,7 +1405,7 @@
         "formattedSize": "640x640",
         "size": 640,
         "baseToBase": 1109,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Uxbridge",
@@ -1413,7 +1413,7 @@
         "formattedSize": "512x512",
         "size": 512,
         "baseToBase": 728,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Vegan",
@@ -1421,7 +1421,7 @@
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 771,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Vortex",
@@ -1429,7 +1429,7 @@
         "formattedSize": "640x640",
         "size": 640,
         "baseToBase": 830,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Wales",
@@ -1437,7 +1437,7 @@
         "formattedSize": "896x896",
         "size": 896,
         "baseToBase": 1441,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Wasteland(Aegeis)",
@@ -1445,7 +1445,7 @@
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 0,
-        "binarySave": "true"
+        "binarySave": true
     },
     {
         "name": "VSR: Winter Valley",
@@ -1453,7 +1453,7 @@
         "formattedSize": "640x640",
         "size": 640,
         "baseToBase": 705,
-        "binarySave": "false"
+        "binarySave": false
     },
     {
         "name": "VSR: Wipeout",
@@ -1461,6 +1461,6 @@
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 980,
-        "binarySave": "false"
+        "binarySave": false
     }
 ]

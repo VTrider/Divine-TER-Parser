@@ -1,103 +1,45 @@
+#include "Parser.h"
+
+#include <nlohmann/json.hpp>
+
 #include <filesystem>
-#include <fstream>
 #include <iostream>
 #include <string>
 #include <vector>
 
-struct MapInfo
+int main(int argc, char** argv)
 {
-    std::string name;
-    std::string formattedSize;
-};
+    std::ios_base::sync_with_stdio(false); // Go fast
 
-static void SearchFolder(std::filesystem::directory_entry dir, MapInfo& info)
-{
-    auto mapFolder = dir.path().parent_path();
+    bool makeJSON = false;
+    std::string JSONName;
+    bool quiet = false;
 
-    for (const auto& mapFile : std::filesystem::directory_iterator(mapFolder))
+    if (argc == 1)
     {
-        if (mapFile.path().extension() == ".INF" || mapFile.path().extension() == ".inf")
+        std::cout << "Usage: parser.exe path_to_search (root VSR directory for example) [-j] [filename] (output json) [-q] (quiet)" << '\n';
+        return -1;
+    }
+    else if (argc > 2)
+    {
+        for (int i = 2; i < argc; i++)
         {
-            std::ifstream inf(mapFile.path());
-
-            std::string line;
-
-            while (std::getline(inf, line))
+            if (strcmp(argv[i], "-j") == 0)
             {
-                static std::string targetPhrase = "missionName";
-
-                if (line.starts_with(targetPhrase) || line.starts_with("MissionName"))
-                {
-                    auto formattedName = line.substr(line.find('"'));
-                    formattedName.erase(std::remove(formattedName.begin(), formattedName.end() + 1, '"'));
-                    info.name = formattedName;
-                    break;
-                }
+                makeJSON = true;
+                JSONName = argv[++i];
             }
-            break;
+            else if (strcmp(argv[i], "-q") == 0)
+            {
+                quiet = true;
+            }
         }
     }
-}
 
-static int ParseMaps(std::filesystem::path startPath, std::vector<MapInfo>& maps)
-{
-    for (const auto& dir : std::filesystem::recursive_directory_iterator(startPath))
-    {
-        if (dir.path().extension() == ".TER" || dir.path().extension() == ".ter")
-        {
-            MapInfo info{};
-
-            std::ifstream ter(dir.path(), std::ios::binary);
-            if (!ter)
-            {
-                std::cerr << "File not found" << '\n';
-                return -1;
-            }
-            ter.seekg(0xC);
-
-            std::int16_t size{};
-            ter.read(reinterpret_cast<char*>(&size), sizeof(std::int16_t));
-
-            size *= 2; // herppapotamus said this is right
-            info.formattedSize = std::format("{}x{}", size, size);
-
-            SearchFolder(dir, info);
-
-            maps.push_back(info);
-        }
-    }
-}
-
-int main()
-{
-    std::string path;
-    std::cout << "Paste the root VSR directory here or anywhere that stores the map files" << '\n';
-    std::cin >> std::ws;
-    std::getline(std::cin, path);
-
-    std::filesystem::path startPath = path;
-
+    std::filesystem::path startPath = argv[1];
     std::vector<MapInfo> maps;
 
-    try
-    {
-        ParseMaps(startPath, maps);
-    }
-    catch (const std::exception& e)
-    {
-        std::cerr << "You fked up!" << '\n' << e.what() << '\n';
-    }
-    
-    std::cout << std::endl;
-
-    for (const auto& info : maps)
-    {
-        std::cout << "Map: " << info.name << '\n';
-        std::cout << "Size (m): " << info.formattedSize << '\n';
-        std::cout << std::endl;
-    }
-
-    std::cin.get();
+    Parser p(startPath, maps, makeJSON, JSONName, quiet);
 
 	return 0;
 }

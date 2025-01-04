@@ -42,7 +42,7 @@ void Parser::OutputText(const std::vector<MapInfo>& maps)
         std::cout << "Formatted Size (m): " << info.formattedSize << '\n';
         std::cout << "Size (m): " << info.size << '\n';
         std::cout << "Base to Base Distance (m): " << info.baseToBaseDistance << '\n';
-        std::cout << "Binary Save: " << info.binarySave << '\n';
+        std::cout << "Binary Save: " << ((info.binarySave == true) ? "true" : "false") << '\n';
         std::cout << '\n';
     }
 }
@@ -124,7 +124,7 @@ void Parser::DoBZN(const std::filesystem::path& path, MapInfo& info)
             return;
         }
 
-        bzn.seekg(72); // Offset to file name is consistent in binary BZNs
+        bzn.seekg(71); // Offset to file name is consistent in binary BZNs
 
         char c;
         std::string fileName;
@@ -134,12 +134,13 @@ void Parser::DoBZN(const std::filesystem::path& path, MapInfo& info)
         {
             fileName += c;
         }
-        info.file = fileName;
+        info.file = fileName.substr(0, fileName.length() - 4);
     }
     else
     {
         std::getline(bzn, line);
-        info.file = line.substr(line.find('=') + 2);
+        line = line.substr(line.find('=') + 2);
+        info.file = line.substr(0, line.length() - 4);
     }
 
     // If you got more than two spawns ur out of luck!

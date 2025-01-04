@@ -1,7 +1,7 @@
 [
     {
         "name": "FFA: Ground Four",
-        "file": "ground4.bzn",
+        "file": "ground4",
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 2181,
@@ -9,7 +9,7 @@
     },
     {
         "name": "FFA: River4",
-        "file": "river4.bzn",
+        "file": "river4",
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 1231,
@@ -17,7 +17,7 @@
     },
     {
         "name": "ST: A Bridge Too Far",
-        "file": "bridges.bzn",
+        "file": "bridges",
         "formattedSize": "640x640",
         "size": 640,
         "baseToBase": 988,
@@ -25,7 +25,7 @@
     },
     {
         "name": "ST: Big Chill",
-        "file": "chill.bzn",
+        "file": "chill",
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 1014,
@@ -33,7 +33,7 @@
     },
     {
         "name": "ST: Deep Blue Sea",
-        "file": "sea_battle.bzn",
+        "file": "sea_battle",
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 1247,
@@ -41,7 +41,7 @@
     },
     {
         "name": "ST: Desert Quarry",
-        "file": "quarry.bzn",
+        "file": "quarry",
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 978,
@@ -49,7 +49,7 @@
     },
     {
         "name": "ST: Ground Zero",
-        "file": "ground0.bzn",
+        "file": "ground0",
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 2181,
@@ -57,7 +57,7 @@
     },
     {
         "name": "ST: High & Low",
-        "file": "hilo.bzn",
+        "file": "hilo",
         "formattedSize": "512x512",
         "size": 512,
         "baseToBase": 1109,
@@ -65,7 +65,7 @@
     },
     {
         "name": "ST: High Heat",
-        "file": "rendstrat.bzn",
+        "file": "rendstrat",
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 1090,
@@ -73,7 +73,7 @@
     },
     {
         "name": "ST: Island Warfare",
-        "file": "stiswar.bzn",
+        "file": "stiswar",
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 1215,
@@ -81,7 +81,7 @@
     },
     {
         "name": "ST: Mars",
-        "file": "rjx-mars.bzn",
+        "file": "rjx-mars",
         "formattedSize": "1280x1280",
         "size": 1280,
         "baseToBase": 951,
@@ -89,7 +89,7 @@
     },
     {
         "name": "ST: Patton's Proving Ground",
-        "file": "st_dunes.bzn",
+        "file": "st_dunes",
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 1294,
@@ -97,7 +97,7 @@
     },
     {
         "name": "ST: RiverWars",
-        "file": "river.bzn",
+        "file": "river",
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 1231,
@@ -105,7 +105,7 @@
     },
     {
         "name": "ST: The Rocks",
-        "file": "strock.bzn",
+        "file": "strock",
         "formattedSize": "512x512",
         "size": 512,
         "baseToBase": 288,
@@ -113,7 +113,7 @@
     },
     {
         "name": "VSR DM: Rocky Canyon",
-        "file": "rckcnynvsr.bzn",
+        "file": "rckcnynvsr",
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 852,
@@ -121,7 +121,7 @@
     },
     {
         "name": "VSR DM: Sly's Obstacle Course",
-        "file": "VSRSlyObstacle.bzn",
+        "file": "VSRSlyObstacle",
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 32,
@@ -129,7 +129,7 @@
     },
     {
         "name": "VSR DM: Vet Training Grounds",
-        "file": "VSR-training.bzn",
+        "file": "VSR-training",
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 32,
@@ -137,7 +137,7 @@
     },
     {
         "name": "VSR DM: Volcanoes",
-        "file": "vsrvolcano.bzn",
+        "file": "vsrvolcano",
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 656,
@@ -145,7 +145,7 @@
     },
     {
         "name": "VSR FFA: 4 Play",
-        "file": "vsrffa4play.bzn",
+        "file": "vsrffa4play",
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 1514,
@@ -153,7 +153,7 @@
     },
     {
         "name": "VSR FFA: 9 Cells",
-        "file": "vsrffa3x34w.bzn",
+        "file": "vsrffa3x34w",
         "formattedSize": "1280x1280",
         "size": 1280,
         "baseToBase": 1526,
@@ -161,7 +161,7 @@
     },
     {
         "name": "VSR FFA: Base Pits",
-        "file": "vsrffamire5w.bzn",
+        "file": "vsrffamire5w",
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 768,
@@ -169,7 +169,7 @@
     },
     {
         "name": "VSR FFA: Crystal Castles",
-        "file": "vsrffacrystal4w.bzn",
+        "file": "vsrffacrystal4w",
         "formattedSize": "1280x1280",
         "size": 1280,
         "baseToBase": 1856,
@@ -177,7 +177,7 @@
     },
     {
         "name": "VSR FFA: Dark Planet",
-        "file": "vsrffadplanet4w.bzn",
+        "file": "vsrffadplanet4w",
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 1050,
@@ -185,7 +185,7 @@
     },
     {
         "name": "VSR FFA: Face Off",
-        "file": "vsrfaceoff.bzn",
+        "file": "vsrfaceoff",
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 225,
@@ -193,7 +193,7 @@
     },
     {
         "name": "VSR FFA: Ice Path",
-        "file": "vsricep14w.bzn",
+        "file": "vsricep14w",
         "formattedSize": "2560x2560",
         "size": 2560,
         "baseToBase": 1962,
@@ -201,7 +201,7 @@
     },
     {
         "name": "VSR FFA: Middle-Low",
-        "file": "vsrffamidlow6w.bzn",
+        "file": "vsrffamidlow6w",
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 707,
@@ -209,7 +209,7 @@
     },
     {
         "name": "VSR FFA: Ring 8",
-        "file": "vsrffarend8w.bzn",
+        "file": "vsrffarend8w",
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 3179,
@@ -217,7 +217,7 @@
     },
     {
         "name": "VSR FFA: Scrap Pit Extreme",
-        "file": "vsrffascrappit5w.bzn",
+        "file": "vsrffascrappit5w",
         "formattedSize": "1280x1280",
         "size": 1280,
         "baseToBase": 1779,
@@ -225,7 +225,7 @@
     },
     {
         "name": "VSR MPI: Ascent",
-        "file": "srascent.bzn",
+        "file": "vsrascent",
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 0,
@@ -233,7 +233,7 @@
     },
     {
         "name": "VSR MPI: BottleNeck",
-        "file": "BottleNeck.bzn",
+        "file": "BottleNeck",
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 2041,
@@ -241,7 +241,7 @@
     },
     {
         "name": "VSR MPI: Meltdown",
-        "file": "vsrMeltdown.bzn",
+        "file": "vsrMeltdown",
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 807,
@@ -249,7 +249,7 @@
     },
     {
         "name": "VSR MPI: Stranded",
-        "file": "vsrStranded.bzn",
+        "file": "vsrStranded",
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 1083,
@@ -257,7 +257,7 @@
     },
     {
         "name": "VSR: 310",
-        "file": "vsr310.bzn",
+        "file": "vsr310",
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 1024,
@@ -265,7 +265,7 @@
     },
     {
         "name": "VSR: Abundance",
-        "file": "srabundance.bzn",
+        "file": "vsrabundance",
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 0,
@@ -273,7 +273,7 @@
     },
     {
         "name": "VSR: Abuse",
-        "file": "vsrabuse.bzn",
+        "file": "vsrabuse",
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 1032,
@@ -281,7 +281,7 @@
     },
     {
         "name": "VSR: Amino",
-        "file": "vsramino.bzn",
+        "file": "vsramino",
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 843,
@@ -289,7 +289,7 @@
     },
     {
         "name": "VSR: Ammo2Go",
-        "file": "mmo2BZCC.bzn",
+        "file": "Ammo2BZCC",
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 0,
@@ -297,7 +297,7 @@
     },
     {
         "name": "VSR: Ancient Hills",
-        "file": "STAncientvsr.bzn",
+        "file": "STAncientvsr",
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 1153,
@@ -305,7 +305,7 @@
     },
     {
         "name": "VSR: Ancient Outposts",
-        "file": "stancientposts.bzn",
+        "file": "stancientposts",
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 1236,
@@ -313,7 +313,7 @@
     },
     {
         "name": "VSR: Aussault",
-        "file": "vsrauslt.bzn",
+        "file": "vsrauslt",
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 1024,
@@ -321,7 +321,7 @@
     },
     {
         "name": "VSR: Aztec",
-        "file": "STAztecvsr.bzn",
+        "file": "STAztecvsr",
         "formattedSize": "640x640",
         "size": 640,
         "baseToBase": 1172,
@@ -329,7 +329,7 @@
     },
     {
         "name": "VSR: Badlands",
-        "file": "STBadlands.bzn",
+        "file": "STBadlands",
         "formattedSize": "512x512",
         "size": 512,
         "baseToBase": 826,
@@ -337,7 +337,7 @@
     },
     {
         "name": "VSR: Barren",
-        "file": "STBarrenvsr.bzn",
+        "file": "STBarrenvsr",
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 953,
@@ -345,7 +345,7 @@
     },
     {
         "name": "VSR: Beyond",
-        "file": "beyond.bzn",
+        "file": "beyond",
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 803,
@@ -353,7 +353,7 @@
     },
     {
         "name": "VSR: Bolt",
-        "file": "STBolt.bzn",
+        "file": "STBolt",
         "formattedSize": "512x512",
         "size": 512,
         "baseToBase": 724,
@@ -361,7 +361,7 @@
     },
     {
         "name": "VSR: Bowl",
-        "file": "stbowlvsr.bzn",
+        "file": "stbowlvsr",
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 1121,
@@ -369,7 +369,7 @@
     },
     {
         "name": "VSR: CP Devils Cauldron",
-        "file": "cpcauldron.bzn",
+        "file": "cpcauldron",
         "formattedSize": "1280x1280",
         "size": 1280,
         "baseToBase": 1152,
@@ -377,7 +377,7 @@
     },
     {
         "name": "VSR: CP Outposts",
-        "file": "cpoutposts.bzn",
+        "file": "cpoutposts",
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 836,
@@ -385,7 +385,7 @@
     },
     {
         "name": "VSR: Canyons",
-        "file": "vsrcanyons.bzn",
+        "file": "vsrcanyons",
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 1876,
@@ -393,7 +393,7 @@
     },
     {
         "name": "VSR: Casius",
-        "file": "vsrcasiusv2.bzn",
+        "file": "vsrcasiusv2",
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 1261,
@@ -401,7 +401,7 @@
     },
     {
         "name": "VSR: Cliff",
-        "file": "zstcliff.bzn",
+        "file": "zstcliff",
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 1225,
@@ -409,7 +409,7 @@
     },
     {
         "name": "VSR: Concrete Jungle",
-        "file": "vsrcncrt.bzn",
+        "file": "vsrcncrt",
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 785,
@@ -417,7 +417,7 @@
     },
     {
         "name": "VSR: Consciousness",
-        "file": "vsrconsc.bzn",
+        "file": "vsrconsc",
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 862,
@@ -425,7 +425,7 @@
     },
     {
         "name": "VSR: Cracked",
-        "file": "VSRCracked.bzn",
+        "file": "VSRCracked",
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 1274,
@@ -433,7 +433,7 @@
     },
     {
         "name": "VSR: Crater",
-        "file": "vsrcrater.bzn",
+        "file": "vsrcrater",
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 895,
@@ -441,7 +441,7 @@
     },
     {
         "name": "VSR: Curiosity",
-        "file": "curiosityvsr.bzn",
+        "file": "curiosityvsr",
         "formattedSize": "512x512",
         "size": 512,
         "baseToBase": 749,
@@ -449,7 +449,7 @@
     },
     {
         "name": "VSR: DC",
-        "file": "vsrdc.bzn",
+        "file": "vsrdc",
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 1069,
@@ -457,7 +457,7 @@
     },
     {
         "name": "VSR: Death Island",
-        "file": "vsrdhisle.bzn",
+        "file": "vsrdhisle",
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 1185,
@@ -465,7 +465,7 @@
     },
     {
         "name": "VSR: Dedux",
-        "file": "stdeduxvsr.bzn",
+        "file": "stdeduxvsr",
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 896,
@@ -473,7 +473,7 @@
     },
     {
         "name": "VSR: Domain",
-        "file": "vsrDomain.bzn",
+        "file": "vsrDomain",
         "formattedSize": "1408x1408",
         "size": 1408,
         "baseToBase": 1296,
@@ -481,7 +481,7 @@
     },
     {
         "name": "VSR: Dream",
-        "file": "vsrdream.bzn",
+        "file": "vsrdream",
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 834,
@@ -489,7 +489,7 @@
     },
     {
         "name": "VSR: DuneNight",
-        "file": "vsr4pool.bzn",
+        "file": "vsr4pool",
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 736,
@@ -497,7 +497,7 @@
     },
     {
         "name": "VSR: Dusk",
-        "file": "uskvsr.bzn",
+        "file": "Duskvsr",
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 0,
@@ -505,7 +505,7 @@
     },
     {
         "name": "VSR: Ebola",
-        "file": "vsrebola.bzn",
+        "file": "vsrebola",
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 996,
@@ -513,7 +513,7 @@
     },
     {
         "name": "VSR: Echelon",
-        "file": "vsrEchelon.bzn",
+        "file": "vsrEchelon",
         "formattedSize": "512x512",
         "size": 512,
         "baseToBase": 890,
@@ -521,7 +521,7 @@
     },
     {
         "name": "VSR: Egypt",
-        "file": "vsrEgypt.bzn",
+        "file": "vsrEgypt",
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 931,
@@ -529,7 +529,7 @@
     },
     {
         "name": "VSR: Equinox",
-        "file": "vsrequinox.bzn",
+        "file": "vsrequinox",
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 933,
@@ -537,7 +537,7 @@
     },
     {
         "name": "VSR: Europa",
-        "file": "vsreuropa.bzn",
+        "file": "vsreuropa",
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 975,
@@ -545,7 +545,7 @@
     },
     {
         "name": "VSR: Europa Night",
-        "file": "vsreuronig.bzn",
+        "file": "vsreuronig",
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 975,
@@ -553,7 +553,7 @@
     },
     {
         "name": "VSR: Excavation",
-        "file": "STvsrexcav.bzn",
+        "file": "STvsrexcav",
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 1136,
@@ -561,7 +561,7 @@
     },
     {
         "name": "VSR: Fever Valley",
-        "file": "vsrfever.bzn",
+        "file": "vsrfever",
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 1414,
@@ -569,7 +569,7 @@
     },
     {
         "name": "VSR: Finland Daylight",
-        "file": "vsrFinDay.bzn",
+        "file": "vsrFinDay",
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 1055,
@@ -577,7 +577,7 @@
     },
     {
         "name": "VSR: Fire Island",
-        "file": "vsrfisle.bzn",
+        "file": "vsrfisle",
         "formattedSize": "896x896",
         "size": 896,
         "baseToBase": 1042,
@@ -585,7 +585,7 @@
     },
     {
         "name": "VSR: Flooded",
-        "file": "vsrFlooded.bzn",
+        "file": "vsrFlooded",
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 1409,
@@ -593,7 +593,7 @@
     },
     {
         "name": "VSR: Forgotten",
-        "file": "vsrforgot.bzn",
+        "file": "vsrforgot",
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 1208,
@@ -601,7 +601,7 @@
     },
     {
         "name": "VSR: Fort 12C",
-        "file": "vsrf12c.bzn",
+        "file": "vsrf12c",
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 1024,
@@ -609,7 +609,7 @@
     },
     {
         "name": "VSR: Garden",
-        "file": "vsrgarden.bzn",
+        "file": "vsrgarden",
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 1067,
@@ -617,7 +617,7 @@
     },
     {
         "name": "VSR: Giza",
-        "file": "STGizavsr.bzn",
+        "file": "STGizavsr",
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 928,
@@ -625,7 +625,7 @@
     },
     {
         "name": "VSR: Golden Sun",
-        "file": "vsrgoldensun.bzn",
+        "file": "vsrgoldensun",
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 1184,
@@ -633,7 +633,7 @@
     },
     {
         "name": "VSR: Haven",
-        "file": "havenvsr.bzn",
+        "file": "havenvsr",
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 841,
@@ -641,7 +641,7 @@
     },
     {
         "name": "VSR: Heated Strat",
-        "file": "eatedBZCC.bzn",
+        "file": "HeatedBZCC",
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 0,
@@ -649,7 +649,7 @@
     },
     {
         "name": "VSR: Hi-Mid-Lo",
-        "file": "vsrbighilo.bzn",
+        "file": "vsrbighilo",
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 1267,
@@ -657,7 +657,7 @@
     },
     {
         "name": "VSR: Hilo Blues",
-        "file": "STBluesvsr.bzn",
+        "file": "STBluesvsr",
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 1179,
@@ -665,7 +665,7 @@
     },
     {
         "name": "VSR: Hound",
-        "file": "SHound.bzn",
+        "file": "SHound",
         "formattedSize": "256x256",
         "size": 256,
         "baseToBase": 780,
@@ -673,7 +673,7 @@
     },
     {
         "name": "VSR: Hubris",
-        "file": "vsrHubris.bzn",
+        "file": "vsrHubris",
         "formattedSize": "720x720",
         "size": 720,
         "baseToBase": 897,
@@ -681,7 +681,7 @@
     },
     {
         "name": "VSR: IX: 7 Forts",
-        "file": "X7Forts.bzn",
+        "file": "IX7Forts",
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 0,
@@ -689,7 +689,7 @@
     },
     {
         "name": "VSR: Ice Age",
-        "file": "vsrIceAge.bzn",
+        "file": "vsrIceAge",
         "formattedSize": "1280x1280",
         "size": 1280,
         "baseToBase": 1229,
@@ -697,7 +697,7 @@
     },
     {
         "name": "VSR: Ice Cold Strat",
-        "file": "cecoldBZCC.bzn",
+        "file": "IcecoldBZCC",
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 0,
@@ -705,7 +705,7 @@
     },
     {
         "name": "VSR: Iceberg",
-        "file": "stockiceberg.bzn",
+        "file": "stockiceberg",
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 1255,
@@ -713,7 +713,7 @@
     },
     {
         "name": "VSR: Impact",
-        "file": "vsrimpact2.bzn",
+        "file": "vsrimpact2",
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 1237,
@@ -721,7 +721,7 @@
     },
     {
         "name": "VSR: Insula",
-        "file": "vsrInsula.bzn",
+        "file": "vsrInsula",
         "formattedSize": "1280x1280",
         "size": 1280,
         "baseToBase": 857,
@@ -729,7 +729,7 @@
     },
     {
         "name": "VSR: Iraq",
-        "file": "stvsriraq.bzn",
+        "file": "stvsriraq",
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 1160,
@@ -737,7 +737,7 @@
     },
     {
         "name": "VSR: Island of *~V8~*+",
-        "file": "vsrv8.bzn",
+        "file": "vsrv8",
         "formattedSize": "1280x1280",
         "size": 1280,
         "baseToBase": 792,
@@ -745,7 +745,7 @@
     },
     {
         "name": "VSR: JO Crystal",
-        "file": "vsrJoCrystalST.bzn",
+        "file": "vsrJoCrystalST",
         "formattedSize": "1216x1216",
         "size": 1216,
         "baseToBase": 1024,
@@ -753,7 +753,7 @@
     },
     {
         "name": "VSR: Jade Green",
-        "file": "vsrJade.bzn",
+        "file": "vsrJade",
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 1082,
@@ -761,7 +761,7 @@
     },
     {
         "name": "VSR: Jurrasic Dog Park",
-        "file": "vsrdpark.bzn",
+        "file": "vsrdpark",
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 870,
@@ -769,7 +769,7 @@
     },
     {
         "name": "VSR: Know Thyself",
-        "file": "vsrknwthy.bzn",
+        "file": "vsrknwthy",
         "formattedSize": "1280x1280",
         "size": 1280,
         "baseToBase": 707,
@@ -777,7 +777,7 @@
     },
     {
         "name": "VSR: Lunar",
-        "file": "vsrlunar.bzn",
+        "file": "vsrlunar",
         "formattedSize": "1280x1280",
         "size": 1280,
         "baseToBase": 1188,
@@ -785,7 +785,7 @@
     },
     {
         "name": "VSR: Lunix",
-        "file": "vsrlunix.bzn",
+        "file": "vsrlunix",
         "formattedSize": "640x640",
         "size": 640,
         "baseToBase": 1050,
@@ -793,7 +793,7 @@
     },
     {
         "name": "VSR: MRT: Wasteland",
-        "file": "vsrmortwasteland.bzn",
+        "file": "vsrmortwasteland",
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 996,
@@ -801,7 +801,7 @@
     },
     {
         "name": "VSR: Magma",
-        "file": "stmagmavsr.bzn",
+        "file": "stmagmavsr",
         "formattedSize": "512x512",
         "size": 512,
         "baseToBase": 561,
@@ -809,7 +809,7 @@
     },
     {
         "name": "VSR: Marden Warfare",
-        "file": "srMardenWarfare.bzn",
+        "file": "vsrMardenWarfare",
         "formattedSize": "1152x1152",
         "size": 1152,
         "baseToBase": 0,
@@ -817,7 +817,7 @@
     },
     {
         "name": "VSR: Mayhem",
-        "file": "stmayhem.bzn",
+        "file": "stmayhem",
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 1192,
@@ -825,7 +825,7 @@
     },
     {
         "name": "VSR: Mesa",
-        "file": "STMesavsr.bzn",
+        "file": "STMesavsr",
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 1103,
@@ -833,7 +833,7 @@
     },
     {
         "name": "VSR: Mexican Mission",
-        "file": "vsrmexican.bzn",
+        "file": "vsrmexican",
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 1012,
@@ -841,7 +841,7 @@
     },
     {
         "name": "VSR: Middle Wars",
-        "file": "vsrmidwars.bzn",
+        "file": "vsrmidwars",
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 1131,
@@ -849,7 +849,7 @@
     },
     {
         "name": "VSR: Mirador",
-        "file": "vsrMirador.bzn",
+        "file": "vsrMirador",
         "formattedSize": "512x512",
         "size": 512,
         "baseToBase": 684,
@@ -857,7 +857,7 @@
     },
     {
         "name": "VSR: Miredon",
-        "file": "vsrmiredon.bzn",
+        "file": "vsrmiredon",
         "formattedSize": "640x640",
         "size": 640,
         "baseToBase": 838,
@@ -865,7 +865,7 @@
     },
     {
         "name": "VSR: Mojave",
-        "file": "vsrMojave.bzn",
+        "file": "vsrMojave",
         "formattedSize": "1280x1280",
         "size": 1280,
         "baseToBase": 1088,
@@ -873,7 +873,7 @@
     },
     {
         "name": "VSR: Moonshroud",
-        "file": "vsrmoonshrd.bzn",
+        "file": "vsrmoonshrd",
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 775,
@@ -881,7 +881,7 @@
     },
     {
         "name": "VSR: Mountain Pass",
-        "file": "MntnPass.bzn",
+        "file": "MntnPass",
         "formattedSize": "1280x1280",
         "size": 1280,
         "baseToBase": 1120,
@@ -889,7 +889,7 @@
     },
     {
         "name": "VSR: Mountain Top",
-        "file": "tntopBZCC.bzn",
+        "file": "MtntopBZCC",
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 0,
@@ -897,7 +897,7 @@
     },
     {
         "name": "VSR: Murky",
-        "file": "tmurkybzcc.bzn",
+        "file": "stmurkybzcc",
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 0,
@@ -905,7 +905,7 @@
     },
     {
         "name": "VSR: Natural Landscape",
-        "file": "tnaturalbzcc.bzn",
+        "file": "stnaturalbzcc",
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 0,
@@ -913,7 +913,7 @@
     },
     {
         "name": "VSR: Nigeria",
-        "file": "vsrnigeria.bzn",
+        "file": "vsrnigeria",
         "formattedSize": "896x896",
         "size": 896,
         "baseToBase": 771,
@@ -921,7 +921,7 @@
     },
     {
         "name": "VSR: No Mans Land",
-        "file": "vsrnomnld.bzn",
+        "file": "vsrnomnld",
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 723,
@@ -929,7 +929,7 @@
     },
     {
         "name": "VSR: Oasis",
-        "file": "VSROasis.bzn",
+        "file": "VSROasis",
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 1216,
@@ -937,7 +937,7 @@
     },
     {
         "name": "VSR: Ogg Vorbis",
-        "file": "vsrogg.bzn",
+        "file": "vsrogg",
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 1073,
@@ -945,7 +945,7 @@
     },
     {
         "name": "VSR: Oldboy",
-        "file": "vsroldboy.bzn",
+        "file": "vsroldboy",
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 960,
@@ -953,7 +953,7 @@
     },
     {
         "name": "VSR: Overlook",
-        "file": "vsroverlook.bzn",
+        "file": "vsroverlook",
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 1280,
@@ -961,7 +961,7 @@
     },
     {
         "name": "VSR: Oxide",
-        "file": "vsroxide.bzn",
+        "file": "vsroxide",
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 1315,
@@ -969,7 +969,7 @@
     },
     {
         "name": "VSR: Phazon",
-        "file": "VSRPhazon.bzn",
+        "file": "VSRPhazon",
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 1152,
@@ -977,7 +977,7 @@
     },
     {
         "name": "VSR: Phoenix",
-        "file": "STPhoenixvsr.bzn",
+        "file": "STPhoenixvsr",
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 1089,
@@ -985,7 +985,7 @@
     },
     {
         "name": "VSR: Pit Bull",
-        "file": "STPitbull.bzn",
+        "file": "STPitbull",
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 768,
@@ -993,7 +993,7 @@
     },
     {
         "name": "VSR: Pitfall",
-        "file": "vsrpitfall.bzn",
+        "file": "vsrpitfall",
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 842,
@@ -1001,7 +1001,7 @@
     },
     {
         "name": "VSR: Planetoid",
-        "file": "lanetBZCC.bzn",
+        "file": "PlanetBZCC",
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 0,
@@ -1009,7 +1009,7 @@
     },
     {
         "name": "VSR: Plaza",
-        "file": "vsrPlaza.bzn",
+        "file": "vsrPlaza",
         "formattedSize": "1280x1280",
         "size": 1280,
         "baseToBase": 896,
@@ -1017,7 +1017,7 @@
     },
     {
         "name": "VSR: Plus",
-        "file": "vsrplus.bzn",
+        "file": "vsrplus",
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 906,
@@ -1025,7 +1025,7 @@
     },
     {
         "name": "VSR: Power Struggle",
-        "file": "vsrpstrgle.bzn",
+        "file": "vsrpstrgle",
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 448,
@@ -1033,7 +1033,7 @@
     },
     {
         "name": "VSR: Prodigy Ver.2",
-        "file": "zprodigyv2.bzn",
+        "file": "zprodigyv2",
         "formattedSize": "640x640",
         "size": 640,
         "baseToBase": 1222,
@@ -1041,7 +1041,7 @@
     },
     {
         "name": "VSR: Quagmire",
-        "file": "stquagmirevsr.bzn",
+        "file": "stquagmirevsr",
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 1027,
@@ -1049,7 +1049,7 @@
     },
     {
         "name": "VSR: Quarry 2",
-        "file": "vsrquarry2.bzn",
+        "file": "vsrquarry2",
         "formattedSize": "1280x1280",
         "size": 1280,
         "baseToBase": 1042,
@@ -1057,7 +1057,7 @@
     },
     {
         "name": "VSR: Ragnarok",
-        "file": "vsrragnor.bzn",
+        "file": "vsrragnor",
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 1090,
@@ -1065,7 +1065,7 @@
     },
     {
         "name": "VSR: Rapemas",
-        "file": "vsrrapemas.bzn",
+        "file": "vsrrapemas",
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 962,
@@ -1073,7 +1073,7 @@
     },
     {
         "name": "VSR: Ravine",
-        "file": "vsrRavine.bzn",
+        "file": "vsrRavine",
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 1505,
@@ -1081,7 +1081,7 @@
     },
     {
         "name": "VSR: Rectal",
-        "file": "vsrrectal.bzn",
+        "file": "vsrrectal",
         "formattedSize": "896x896",
         "size": 896,
         "baseToBase": 730,
@@ -1089,7 +1089,7 @@
     },
     {
         "name": "VSR: Red Bluff",
-        "file": "vsrRedBluff.bzn",
+        "file": "vsrRedBluff",
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 1732,
@@ -1097,7 +1097,7 @@
     },
     {
         "name": "VSR: Red Slope",
-        "file": "stredslopevsr.bzn",
+        "file": "stredslopevsr",
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 916,
@@ -1105,7 +1105,7 @@
     },
     {
         "name": "VSR: Reflex",
-        "file": "STReflexvsr.bzn",
+        "file": "STReflexvsr",
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 1180,
@@ -1113,7 +1113,7 @@
     },
     {
         "name": "VSR: Remnant",
-        "file": "vsrremnant.bzn",
+        "file": "vsrremnant",
         "formattedSize": "640x640",
         "size": 640,
         "baseToBase": 1001,
@@ -1121,7 +1121,7 @@
     },
     {
         "name": "VSR: Rendon",
-        "file": "strendonvsr.bzn",
+        "file": "strendonvsr",
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 992,
@@ -1129,7 +1129,7 @@
     },
     {
         "name": "VSR: Revolution",
-        "file": "vsrrevo.bzn",
+        "file": "vsrrevo",
         "formattedSize": "512x512",
         "size": 512,
         "baseToBase": 669,
@@ -1137,7 +1137,7 @@
     },
     {
         "name": "VSR: Ridges",
-        "file": "stridges.bzn",
+        "file": "stridges",
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 1108,
@@ -1145,7 +1145,7 @@
     },
     {
         "name": "VSR: Rift",
-        "file": "VSRRift2.bzn",
+        "file": "VSRRift2",
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 1875,
@@ -1153,7 +1153,7 @@
     },
     {
         "name": "VSR: Royal Stadium",
-        "file": "VSRRoyal.bzn",
+        "file": "VSRRoyal",
         "formattedSize": "512x512",
         "size": 512,
         "baseToBase": 759,
@@ -1161,7 +1161,7 @@
     },
     {
         "name": "VSR: Sahara",
-        "file": "vsrSahara.bzn",
+        "file": "vsrSahara",
         "formattedSize": "1280x1280",
         "size": 1280,
         "baseToBase": 1242,
@@ -1169,7 +1169,7 @@
     },
     {
         "name": "VSR: Satart",
-        "file": "vsrsatart.bzn",
+        "file": "vsrsatart",
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 771,
@@ -1177,7 +1177,7 @@
     },
     {
         "name": "VSR: Scammed",
-        "file": "vsrscammed.bzn",
+        "file": "vsrscammed",
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 1132,
@@ -1185,7 +1185,7 @@
     },
     {
         "name": "VSR: Scion Central",
-        "file": "vsrScionCent.bzn",
+        "file": "vsrScionCent",
         "formattedSize": "1280x1280",
         "size": 1280,
         "baseToBase": 1152,
@@ -1193,7 +1193,7 @@
     },
     {
         "name": "VSR: Selena",
-        "file": "vsrLunaST.bzn",
+        "file": "vsrLunaST",
         "formattedSize": "1184x1184",
         "size": 1184,
         "baseToBase": 896,
@@ -1201,7 +1201,7 @@
     },
     {
         "name": "VSR: Sinister",
-        "file": "STSinister.bzn",
+        "file": "STSinister",
         "formattedSize": "1152x1152",
         "size": 1152,
         "baseToBase": 1016,
@@ -1209,7 +1209,7 @@
     },
     {
         "name": "VSR: Six Way",
-        "file": "vsr6way.bzn",
+        "file": "vsr6way",
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 832,
@@ -1217,7 +1217,7 @@
     },
     {
         "name": "VSR: Snow Central",
-        "file": "vsrSnowCentral.bzn",
+        "file": "vsrSnowCentral",
         "formattedSize": "1280x1280",
         "size": 1280,
         "baseToBase": 1024,
@@ -1225,7 +1225,7 @@
     },
     {
         "name": "VSR: Stack",
-        "file": "vsrstack.bzn",
+        "file": "vsrstack",
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 896,
@@ -1233,7 +1233,7 @@
     },
     {
         "name": "VSR: Stone Circle",
-        "file": "tonevsr.bzn",
+        "file": "Stonevsr",
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 0,
@@ -1241,7 +1241,7 @@
     },
     {
         "name": "VSR: Strategy Arena",
-        "file": "starena.bzn",
+        "file": "starena",
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 862,
@@ -1249,7 +1249,7 @@
     },
     {
         "name": "VSR: Supply Lanes",
-        "file": "vsrLanes.bzn",
+        "file": "vsrLanes",
         "formattedSize": "1280x1280",
         "size": 1280,
         "baseToBase": 1222,
@@ -1257,7 +1257,7 @@
     },
     {
         "name": "VSR: Swamp Gas",
-        "file": "vsrswgas.bzn",
+        "file": "vsrswgas",
         "formattedSize": "896x896",
         "size": 896,
         "baseToBase": 746,
@@ -1265,7 +1265,7 @@
     },
     {
         "name": "VSR: Tempest",
-        "file": "sttempestvsr.bzn",
+        "file": "sttempestvsr",
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 1182,
@@ -1273,7 +1273,7 @@
     },
     {
         "name": "VSR: Temple Of Doom",
-        "file": "STTemple.bzn",
+        "file": "STTemple",
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 1001,
@@ -1281,7 +1281,7 @@
     },
     {
         "name": "VSR: Terrace",
-        "file": "vsrterrace.bzn",
+        "file": "vsrterrace",
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 768,
@@ -1289,7 +1289,7 @@
     },
     {
         "name": "VSR: Terron",
-        "file": "vsrterron.bzn",
+        "file": "vsrterron",
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 1088,
@@ -1297,7 +1297,7 @@
     },
     {
         "name": "VSR: The War",
-        "file": "vsrthewar.bzn",
+        "file": "vsrthewar",
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 758,
@@ -1305,7 +1305,7 @@
     },
     {
         "name": "VSR: Throbbing Gristle",
-        "file": "vsrthrob.bzn",
+        "file": "vsrthrob",
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 960,
@@ -1313,7 +1313,7 @@
     },
     {
         "name": "VSR: Titan",
-        "file": "vsrsttitan.bzn",
+        "file": "vsrsttitan",
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 973,
@@ -1321,7 +1321,7 @@
     },
     {
         "name": "VSR: Toon Earth, Water and Fire",
-        "file": "WFvsr.bzn",
+        "file": "EWFvsr",
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 0,
@@ -1329,7 +1329,7 @@
     },
     {
         "name": "VSR: Toon World Day",
-        "file": "oonwrldBZCC.bzn",
+        "file": "ToonwrldBZCC",
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 0,
@@ -1337,7 +1337,7 @@
     },
     {
         "name": "VSR: Toon World Day",
-        "file": "oonwrldBZCC.bzn",
+        "file": "ToonwrldBZCC",
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 0,
@@ -1345,7 +1345,7 @@
     },
     {
         "name": "VSR: Toxicity",
-        "file": "vsrBridgeST.bzn",
+        "file": "vsrBridgeST",
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 1088,
@@ -1353,7 +1353,7 @@
     },
     {
         "name": "VSR: Trail",
-        "file": "STTrailvsr.bzn",
+        "file": "STTrailvsr",
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 1449,
@@ -1361,7 +1361,7 @@
     },
     {
         "name": "VSR: Transfer",
-        "file": "vsrTransfer.bzn",
+        "file": "vsrTransfer",
         "formattedSize": "512x512",
         "size": 512,
         "baseToBase": 996,
@@ -1369,7 +1369,7 @@
     },
     {
         "name": "VSR: Trapped",
-        "file": "vsrtrapped.bzn",
+        "file": "vsrtrapped",
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 1090,
@@ -1377,7 +1377,7 @@
     },
     {
         "name": "VSR: Trench",
-        "file": "sttrenchvsr.bzn",
+        "file": "sttrenchvsr",
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 1093,
@@ -1385,7 +1385,7 @@
     },
     {
         "name": "VSR: Trinity",
-        "file": "vsrtrinity.bzn",
+        "file": "vsrtrinity",
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 1200,
@@ -1393,7 +1393,7 @@
     },
     {
         "name": "VSR: Twin Peaks",
-        "file": "vsrtwinpeaks.bzn",
+        "file": "vsrtwinpeaks",
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 1020,
@@ -1401,7 +1401,7 @@
     },
     {
         "name": "VSR: Two Hills",
-        "file": "vsrtwohills.bzn",
+        "file": "vsrtwohills",
         "formattedSize": "640x640",
         "size": 640,
         "baseToBase": 1109,
@@ -1409,7 +1409,7 @@
     },
     {
         "name": "VSR: Uxbridge",
-        "file": "vsruxbridge.bzn",
+        "file": "vsruxbridge",
         "formattedSize": "512x512",
         "size": 512,
         "baseToBase": 728,
@@ -1417,7 +1417,7 @@
     },
     {
         "name": "VSR: Vegan",
-        "file": "vsrvegan.bzn",
+        "file": "vsrvegan",
         "formattedSize": "1024x1024",
         "size": 1024,
         "baseToBase": 771,
@@ -1425,7 +1425,7 @@
     },
     {
         "name": "VSR: Vortex",
-        "file": "vsrvort.bzn",
+        "file": "vsrvort",
         "formattedSize": "640x640",
         "size": 640,
         "baseToBase": 830,
@@ -1433,7 +1433,7 @@
     },
     {
         "name": "VSR: Wales",
-        "file": "vsrWales.bzn",
+        "file": "vsrWales",
         "formattedSize": "896x896",
         "size": 896,
         "baseToBase": 1441,
@@ -1441,7 +1441,7 @@
     },
     {
         "name": "VSR: Wasteland(Aegeis)",
-        "file": "asteBZCC.bzn",
+        "file": "WasteBZCC",
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 0,
@@ -1449,7 +1449,7 @@
     },
     {
         "name": "VSR: Winter Valley",
-        "file": "wintervalley.bzn",
+        "file": "wintervalley",
         "formattedSize": "640x640",
         "size": 640,
         "baseToBase": 705,
@@ -1457,7 +1457,7 @@
     },
     {
         "name": "VSR: Wipeout",
-        "file": "vsrwout.bzn",
+        "file": "vsrwout",
         "formattedSize": "2048x2048",
         "size": 2048,
         "baseToBase": 980,

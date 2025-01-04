@@ -210,7 +210,7 @@ void Parser::DoBZN(const std::filesystem::path& path, MapInfo& info)
                 }
                 
                 // The data is every other line
-                for (int j = 0; i < 2; j++)
+                for (int j = 0; j < 2; j++)
                 {
                     std::getline(bzn, line);
                 }
@@ -297,7 +297,7 @@ void Parser::ParseMaps(const std::filesystem::path& startPath, std::vector<MapIn
 
         if (ToUpper(dir.path().extension().string()) == ".TER")
         {
-            threads.emplace_back([this, dir, &maps, &mapsMutex]()
+            threads.emplace_back(std::thread([this, dir, &maps, &mapsMutex]()
                 {
                     std::vector<MapInfo> foundMaps;
 
@@ -312,7 +312,7 @@ void Parser::ParseMaps(const std::filesystem::path& startPath, std::vector<MapIn
                             pathToIgnore = dir.path().parent_path();
                         }
                     }
-                });
+                }));
         }
     }
 

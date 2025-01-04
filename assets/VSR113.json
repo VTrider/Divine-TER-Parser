@@ -1344,6 +1344,22 @@
         "binarySave": true
     },
     {
+        "name": "VSR: Toon World Night",
+        "file": "ToonNBZCC",
+        "formattedSize": "1024x1024",
+        "size": 1024,
+        "baseToBase": 0,
+        "binarySave": true
+    },
+    {
+        "name": "VSR: Toon World Night",
+        "file": "ToonNBZCC",
+        "formattedSize": "1024x1024",
+        "size": 1024,
+        "baseToBase": 0,
+        "binarySave": true
+    },
+    {
         "name": "VSR: Toxicity",
         "file": "vsrBridgeST",
         "formattedSize": "1024x1024",

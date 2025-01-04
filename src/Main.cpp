@@ -10,6 +10,7 @@
 int main(int argc, char** argv)
 {
     std::ios_base::sync_with_stdio(false); // Go fast
+    std::cin.tie(nullptr);
 
     bool makeJSON = false;
     std::string JSONName;

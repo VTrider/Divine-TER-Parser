@@ -4,6 +4,11 @@
 
 #include <fstream>
 #include <iostream>
+#include <mutex>
+#include <unordered_set>
+#include <thread>
+
+#define MULTITHREAD
 
 // Why tf isn't this in the standard library ._.
 std::string Parser::ToUpper(const std::string& str)
@@ -47,22 +52,21 @@ void Parser::OutputText(const std::vector<MapInfo>& maps)
     }
 }
 
-void Parser::DoTER(const std::filesystem::path& path, MapInfo& info)
+// Deletes anomalous map detections from stray files that get through the
+// other filters
+void Parser::CleanMaps(std::vector<MapInfo>& maps)
 {
-    std::ifstream ter(path, std::ios::binary);
-    if (!ter)
+    std::vector<MapInfo> temp = maps;
+    std::vector<MapInfo> cleanedMaps;
+    for (const auto& map : temp)
     {
-        std::cerr << "File not found" << '\n';
-        return;
+        if (map.mapFiles.size() < 6)
+        {
+            continue;
+        }
+        cleanedMaps.push_back(map);
     }
-    ter.seekg(0xC); // Offset of the TER size data
-
-    std::int16_t size{};
-    ter.read(reinterpret_cast<char*>(&size), sizeof(std::int16_t));
-    
-    size *= 2; // herppapotamus said this is right
-    info.size = size;
-    info.formattedSize = std::format("{}x{}", size, size);
+    maps = cleanedMaps;
 }
 
 void Parser::DoINF(const std::filesystem::path& path, MapInfo& info)
@@ -91,6 +95,29 @@ void Parser::DoINF(const std::filesystem::path& path, MapInfo& info)
     }
 }
 
+void Parser::DoTER(const std::filesystem::path& path, MapInfo& info)
+{
+    if (!(ToUpper(path.extension().string()) == ".TER"))
+    {
+        return;
+    }
+
+    std::ifstream ter(path, std::ios::binary);
+    if (!ter)
+    {
+        std::cerr << "File not found" << '\n';
+        return;
+    }
+    ter.seekg(0xC); // Offset of the TER size data
+
+    std::int16_t size{};
+    ter.read(reinterpret_cast<char*>(&size), sizeof(std::int16_t));
+    
+    size *= 2; // herppapotamus said this is right
+    info.size = size;
+    info.formattedSize = std::format("{}x{}", size, size);
+}
+
 // This is too much voodoo
 void Parser::DoBZN(const std::filesystem::path& path, MapInfo& info)
 {
@@ -117,20 +144,20 @@ void Parser::DoBZN(const std::filesystem::path& path, MapInfo& info)
     if (info.binarySave == true)
     {
         bzn.close();
-        std::ifstream bzn(path, std::ios::binary);
-        if (!bzn)
+        std::ifstream binaryBZN(path, std::ios::binary);
+        if (!binaryBZN)
         {
             std::cerr << "Failed to open file: " << path << '\n';
             return;
         }
 
-        bzn.seekg(71); // Offset to file name is consistent in binary BZNs
+        binaryBZN.seekg(71); // Offset to file name is consistent in binary BZNs
 
         char c;
         std::string fileName;
 
-        const char eot = '\x04';
-        while (bzn.get(c) && c != eot)
+        static constexpr char eot = '\x04';
+        while (binaryBZN.get(c) && c != eot)
         {
             fileName += c;
         }
@@ -168,7 +195,6 @@ void Parser::DoBZN(const std::filesystem::path& path, MapInfo& info)
 
             for (int i = 0; i < 3; i++)
             {
-                float value{};
                 std::istringstream s(line); // Converts the scientific notation string into a float
                 switch (i)
                 {
@@ -184,7 +210,7 @@ void Parser::DoBZN(const std::filesystem::path& path, MapInfo& info)
                 }
                 
                 // The data is every other line
-                for (int i = 0; i < 2; i++)
+                for (int j = 0; i < 2; j++)
                 {
                     std::getline(bzn, line);
                 }
@@ -195,32 +221,138 @@ void Parser::DoBZN(const std::filesystem::path& path, MapInfo& info)
     info.baseToBaseDistance = iDistance2D(firstSpawn, secondSpawn);
 }
 
-void Parser::SearchFolder(const std::filesystem::directory_entry& dir, MapInfo& info)
+Parser::folderStatus Parser::SearchFolder(const std::filesystem::directory_entry& dir, std::vector<MapInfo>& foundMaps)
 {
-    auto mapFolder = dir.path().parent_path();
+    auto mapFolder = dir.path().parent_path(); // Path right now is to the TER
 
+    std::unordered_set<std::string> foundStems;
+    std::vector<std::filesystem::path> folderFiles;
+
+    // Identify unique maps if feukers like Aegeis put multiple in one folder
     for (const auto& file : std::filesystem::directory_iterator(mapFolder))
     {
-        DoINF(file.path(), info);
-        DoBZN(file.path(), info);
+        if (file.is_directory())
+        {
+            continue;
+        }
+        if (!mapFileExtensions.contains(ToUpper(file.path().extension().string())))
+        {
+            continue;
+        }
+
+        if (!foundStems.contains(ToUpper(file.path().stem().string())))
+        {
+            MapInfo info{};
+            auto stem = file.path().stem();
+            info.mapFileStem = ToUpper(stem.string());
+
+            foundStems.insert(ToUpper(stem.string()));
+            foundMaps.push_back(info);
+        }
+        folderFiles.push_back(file.path());
     }
+
+    // Sort files by their corresponding map
+    for (auto& map : foundMaps)
+    {
+        for (const auto& file : folderFiles)
+        {
+            if (map.mapFileStem == ToUpper(file.stem().string()))
+            {
+                map.mapFiles.push_back(file);
+            }
+        }
+    }
+
+    // Finally parse the map data
+    for (auto& info : foundMaps)
+    {
+        for (const auto& file : info.mapFiles)
+        {
+            DoINF(file, info);
+            DoTER(file, info);
+            DoBZN(file, info);
+        }
+    }
+
+    using enum folderStatus;
+
+    return (foundMaps.size() > 1) ? multipleFound : singleFound;
 }
 
 void Parser::ParseMaps(const std::filesystem::path& startPath, std::vector<MapInfo>& maps)
 {
+#ifdef MULTITHREAD
+    std::vector<std::thread> threads;
+    std::mutex mapsMutex;
     for (const auto& dir : std::filesystem::recursive_directory_iterator(startPath))
     {
+        static std::filesystem::path pathToIgnore;
+
+        // Hack to go up a directory if the current folder has already been processed
+        if (dir.path().parent_path() == pathToIgnore)
+        {
+            continue;
+        }
+
         if (ToUpper(dir.path().extension().string()) == ".TER")
         {
-            MapInfo info{};
+            threads.emplace_back([this, dir, &maps, &mapsMutex]()
+                {
+                    std::vector<MapInfo> foundMaps;
 
-            DoTER(dir.path(), info);
+                    folderStatus status = SearchFolder(dir, foundMaps);
 
-            SearchFolder(dir, info);
+                    {
+                        std::lock_guard<std::mutex> lock(mapsMutex);
+                        maps.insert(maps.end(), foundMaps.begin(), foundMaps.end());
 
-            maps.push_back(info);
+                        if (status == folderStatus::multipleFound)
+                        {
+                            pathToIgnore = dir.path().parent_path();
+                        }
+                    }
+                });
         }
     }
+
+    for (auto& t : threads)
+    {
+        t.join();
+    }
+#endif
+
+#ifdef SINGLETHREAD
+    // For some reason using the iterator directly caused access violation so I have to
+    // use range based for loop
+    for (const auto& dir : std::filesystem::recursive_directory_iterator(startPath))
+    {
+        static std::filesystem::path pathToIgnore;
+
+        // Hack to go up a directory if the current folder has already been processed
+        if (dir.path().parent_path() == pathToIgnore)
+        {
+            continue;
+        }
+
+        if (ToUpper(dir.path().extension().string()) == ".TER")
+        {
+            std::vector<MapInfo> foundMaps;
+
+            folderStatus status = SearchFolder(dir, foundMaps);
+
+            maps.insert(maps.end(), foundMaps.begin(), foundMaps.end());
+
+            if (status == folderStatus::multipleFound)
+            {
+                pathToIgnore = dir.path().parent_path();
+            }
+        }
+    }
+#endif
+
+    CleanMaps(maps);
+
     std::sort(maps.begin(), maps.end(), [](const MapInfo& a, const MapInfo& b)
         {
             return a.name < b.name; // Alphabetical
